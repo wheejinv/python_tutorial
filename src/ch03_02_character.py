@@ -21,11 +21,11 @@ print(raw_s1)
 # 멀티라인 입력, 긴 텍스트인 경우 잘라서 보기 좋게 처리하고 싶을 때,
 # \ 붙여서 사용하면 보기 좋음.
 multi_str = \
-"""
-문자열
-멀티 라인 입력
-테스트
-"""
+    """
+    문자열
+    멀티 라인 입력
+    테스트
+    """
 print(multi_str)
 
 # 문자열 연신
@@ -43,7 +43,7 @@ print("replace1: ", str1.replace('thon', ' Good'))
 print("replace2: ", str1.replace("are", "was"))
 print("split: ", str1.split(' '))  # Type 확인
 print("sorted: ", sorted(str1))  # reverse=True
-print("reversed1: ", reversed(str1)) #list 형 변환
+print("reversed1: ", reversed(str1))  # list 형 변환
 print("reversed2: ", list(reversed(str1)))
 
 # 슬라이싱 a[start : end : step], step: stride 라고도 하며 몇개씩 끊어서 가져올지를 정한다.

@@ -6,7 +6,6 @@ m = n = 700
 print(n)  # 700
 print(type(n))  # <class 'int'>
 
-
 # Object References
 # 타입에 맞는 오브젝트 생성
 print(id(n))  # 4347363792

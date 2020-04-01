@@ -49,4 +49,4 @@ print(x, y)  # 12 4
 import math
 
 print(math.pi)  # 3.141592653589793
-print(math.ceil(5.1))   # 6
+print(math.ceil(5.1))  # 6
