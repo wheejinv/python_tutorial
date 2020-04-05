@@ -82,5 +82,5 @@ print('a - ', a)
 
 # 반복문 활용
 while a:
-    l = a.pop()
-    print(2 is l)
+	l = a.pop()
+	print(2 is l)

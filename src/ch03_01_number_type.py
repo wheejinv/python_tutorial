@@ -17,8 +17,8 @@ str1 = "python"
 str2 = "Anaconda"
 list = [str1, str2]
 dict = {
-    "name": "Test",
-    "vesrion": 2.0
+	"name": "Test",
+	"vesrion": 2.0
 }
 tuple = (3, 5, 7)
 set = {7, 8, 9}

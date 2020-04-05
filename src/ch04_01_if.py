@@ -9,19 +9,19 @@ print(type(False))
 
 # 예1
 if True:
-    print("Good")  # 들여쓰기(Indent)
+	print("Good")  # 들여쓰기(Indent)
 
 if False:
-    # 실행 X
-    print("Bad")
+	# 실행 X
+	print("Bad")
 
 # 예2
 if False:
-    # 여기는 실행되지 않음.
-    print("Bad")
+	# 여기는 실행되지 않음.
+	print("Bad")
 else:
-    # 여기가 실행된다.
-    print("Good")
+	# 여기가 실행된다.
+	print("Good")
 
 # 관계연산자 종류
 # >, >=, <, <=, ==, !=
@@ -54,17 +54,17 @@ print(x <= y)
 
 city = ""
 if city:
-    print("You are in:", city)
+	print("You are in:", city)
 else:
-    # 출력
-    print("Please enter your city")
+	# 출력
+	print("Please enter your city")
 
 city = "Seoul"
 if city:
-    print("You are in:", city)
+	print("You are in:", city)
 else:
-    # 출력
-    print("Please enter your city")
+	# 출력
+	print("Please enter your city")
 
 # 논리연산자(중요)
 # and, or, not
@@ -94,9 +94,9 @@ score2 = 'A'
 
 # 복수의 조건이 모두 참일 경우에 실행.
 if score1 >= 90 and score2 == 'A':
-    print("Pass.")
+	print("Pass.")
 else:
-    print("Fail.")
+	print("Fail.")
 
 # 예제
 
@@ -105,22 +105,22 @@ id2 = "admin"
 grade = 'platinum'
 
 if id1 == "vip" or id2 == "admin":
-    print("관리자 인증")
+	print("관리자 인증")
 
 if id2 == "admin" and grade == "platinum":
-    print("최상위 관리자")
+	print("최상위 관리자")
 
 # 다중 조건문
 num = 90
 
 if num >= 90:
-    print('Grade : A')
+	print('Grade : A')
 elif num >= 80:
-    print('Grade : B')
+	print('Grade : B')
 elif num >= 70:
-    print('Grade : C')
+	print('Grade : C')
 else:
-    print('과락')
+	print('과락')
 
 # 중첩 조건문
 
@@ -128,14 +128,14 @@ grade = 'A'
 total = 95
 
 if grade == 'A':
-    if total >= 90:
-        print("장학금 100%")
-    elif total >= 80:
-        print("장학금 80%")
-    else:
-        print("장학금 70%")
+	if total >= 90:
+		print("장학금 100%")
+	elif total >= 80:
+		print("장학금 80%")
+	else:
+		print("장학금 70%")
 else:
-    print("장학금 50%")
+	print("장학금 50%")
 
 # in, not in
 
