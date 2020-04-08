@@ -50,7 +50,7 @@ print()
 
 # 예제4
 # readline : 한 줄 씩 읽기
-
+print('--------- 예제 4 ---------')
 with open('../resource/it_news.txt', 'r', encoding='UTF-8') as f:
 	line = f.readline()
 	print(line)
@@ -61,7 +61,7 @@ print()
 
 # 예제5
 # readlines : 전체를 읽은 후 라인 단위 리스트로 저장
-
+print('--------- 예제 5 ---------')
 with open('../resource/it_news.txt', 'r', encoding='UTF-8') as f:
 	cts = f.readlines()
 	print(cts)
